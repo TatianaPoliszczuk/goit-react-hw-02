@@ -1,0 +1,20 @@
+.buttonWrapper {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    gap: 10px;
+  }
+  .optionButtonBad {
+    background-color: red;
+  }
+  .optionButtonGood {
+    background-color: greenyellow;
+  }
+  
+  .optionButtonNeutral {
+    background-color: lightskyblue;
+  }
+  
+  .optionButtonReset {
+    background-color: pink;
+  }
