@@ -1,15 +1,11 @@
-import s from "./Description.module.css";
-
-const Description = () => {
-  return (
-    <div className={s.descriptionWrapper}>
-      <h1 className={s.descriptionTitle}>Sip Happens Café</h1>
-      <p className={s.descriptionItem}>
-        Please leave your feedback about our service by selecting one of the
-        options below.
-      </p>
-    </div>
-  );
-};
+const Description = () => (
+  <div>
+    <h1>Sip Happens Café</h1>
+    <p>
+      Please leave your feedback about our service by seelecting onr of the
+      options below.
+    </p>
+  </div>
+);
 
 export default Description;
